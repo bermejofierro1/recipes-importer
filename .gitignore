@@ -1,0 +1,50 @@
+# Build
+target/
+build/
+out/
+
+# Maven wrapper jar if generated locally
+.mvn/wrapper/maven-wrapper.jar
+
+# Local database
+data/
+*.mv.db
+*.trace.db
+
+# Logs
+*.log
+logs/
+
+# Eclipse / STS
+.apt_generated/
+.factorypath
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local environment
+.env
+.env.*
+application-local.properties
