@@ -27,7 +27,7 @@ Revisa este mapper y dime si ves algún problema en la transformación de ingred
 ```
 
 ```txt
-Me aparece este error en Eclipse al ejecutar el proyecto Spring Boot. ¿Qué significa y cómo puedo solucionarlo?
+Me aparece este error en Eclipse al ejecutar el proyecto Spring Boot. ¿Qué significa?
 ```
 
 ```txt
