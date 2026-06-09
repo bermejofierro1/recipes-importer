@@ -10,13 +10,18 @@ He intentado centrarme en resolver lo que se pedía en el ejercicio sin añadir 
 
 ## Tecnologías usadas
 
-* Java 17
-* Spring Boot
-* Maven
-* Spring Data JPA
-* H2 Database
-* WebClient
-* JUnit 5
+- Java 17
+- Spring Boot
+- Maven
+- Spring Data JPA
+- H2 Database
+- WebClient
+- JUnit 5
+
+## Entorno de desarrollo
+
+- Eclipse IDE
+
 
 He usado H2 porque permite ejecutar el proyecto fácilmente sin instalar una base de datos externa. Si el proyecto creciera, una opción que valoraría sería usar MongoDB, ya que las recetas encajan bastante bien con una estructura documental.
 
@@ -197,6 +202,8 @@ Búsquedas sin resultado: 1
 
 Si se ejecuta otra vez sin borrar la base de datos, las recetas aparecerán como duplicadas porque ya están guardadas.
 
+También se puede ejecutar directamente la clase `Room714RecipesImporterApplication` como aplicación Spring Boot desde el IDE.
+
 ---
 
 ## Consola H2
@@ -255,6 +262,9 @@ En Linux o Mac:
 ```bash
 ./mvnw test
 ```
+
+También se puede ejecutar la clase `RecipeMapperTest` en `src\test\java\com\miguelbermejo\roomrecipes\mapper\` desde el IDE.
+
 
 Los tests comprueban principalmente:
 
